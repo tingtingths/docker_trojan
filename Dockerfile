@@ -1,6 +1,8 @@
 FROM ubuntu:20.04
 
-RUN apt-get update && apt-get -y install trojan
+ENV VERSION 1.14.1-1
+
+RUN apt-get update && apt-get -y install trojan=$VERSION
 
 EXPOSE 443
 
