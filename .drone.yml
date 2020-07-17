@@ -16,7 +16,7 @@ steps:
       from_secret: docker_username
     password:
       from_secret: docker_password
-    repo: tingtingths/docker_trojan
+    repo: tingtingths/trojan
     tag:
     - latest
     - ${DRONE_TAG}
