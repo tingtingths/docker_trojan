@@ -1,6 +1,6 @@
-FROM ubuntu:20.04
+FROM ubuntu:20.10
 
-ENV VERSION 1.14.1-1
+ENV VERSION 1.16.0-1
 
 RUN apt-get update && apt-get -y install trojan=$VERSION
 
